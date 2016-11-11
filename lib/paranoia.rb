@@ -258,8 +258,6 @@ class ActiveRecord::Base
   end
 end
 
-require 'paranoia/rspec' if defined? RSpec
-
 module ActiveRecord
   module Validations
     module UniquenessParanoiaValidator
